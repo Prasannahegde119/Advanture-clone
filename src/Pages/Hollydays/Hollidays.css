@@ -1,0 +1,97 @@
+.hollyday-container {
+  display: flex;
+  flex-direction: column;
+  /* gap: 5rem; */
+  height: 100%;
+  margin: 1rem auto;
+  padding: 1rem 0;
+  position: relative;
+  width: 1180px;
+}
+
+.image {
+  box-shadow: 20px 20px 0 5px #ffd93d;
+  height: 548px;
+  object-fit: cover;
+  width: 450px;
+}
+
+.holliday-tittle {
+  color: #00c2ff;
+  display: flex;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.inner-content {
+  border: 2px solid #ffd93d;
+  box-shadow: 0 4px 20px #ffd93d;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  min-height: 450px;
+}
+
+.right {
+  height: auto;
+  padding: 6rem 6rem 1rem;
+  width: 100%;
+}
+
+.text-content1 {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.upper {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.heading {
+  font-size: 3rem;
+}
+
+.subheading {
+  font-size: 1.5rem;
+}
+
+.para {
+  font-size: 1.2rem;
+}
+
+.details {
+  align-items: center;
+  display: flex;
+  gap: 5px;
+  height: auto;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+  width: 100%;
+}
+
+.text1 {
+  align-items: center;
+  border: 2px solid #00c2ff;
+  display: flex;
+  font-size: 1.2rem;
+  gap: 5px;
+  justify-content: center;
+  padding: 0.4rem;
+}
+
+.top {
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icons {
+  font-size: 2rem;
+  gap: 27px;
+  display: flex;
+  padding: 15px 27px;
+  background-color: #ffd93d;
+}

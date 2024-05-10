@@ -1,0 +1,121 @@
+.package-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  height: 100%;
+  margin: 2rem auto;
+  padding: 1rem 0;
+  width: 1228px;
+}
+
+.package-title {
+  color: #00c2ff;
+  display: flex;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+
+.package-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow cards to wrap to the next row */
+}
+
+.package-card {
+  position: relative;
+  margin-bottom: 20px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 280px;
+  height: 300px;
+}
+
+.package-card img {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  width: 280px;
+  height: 300px;
+}
+
+.overlay1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  transition: 0.3s ease;
+  /* gap: 10px; */
+}
+
+.card-tittle1 {
+  color: #fff;
+  font-size: 2.3rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 77px;
+  padding: 19px;
+}
+
+.card-package {
+  background-color: #fff;
+  border-radius: 15px;
+  color: #000;
+  height: auto;
+  padding: 0.3rem;
+  text-align: center;
+  width: 75%;
+}
+
+.card-package-id {
+  background-color: #ffd93d;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0 4px 4px #00000012;
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #000;
+  height: auto;
+  margin: 0 auto;
+  padding: 0.8rem;
+  text-align: center;
+  width: 60%;
+}
+
+.explore-more {
+  align-items: center;
+  display: flex;
+  height: auto;
+  justify-content: flex-end;
+  margin-top: 0.5rem;
+  position: relative;
+  width: 100%;
+  font-size: 1.9rem;
+  gap: 10px;
+}
+
+.line {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #ffd93d;
+  color: black;
+}
+
+.yelloww {
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  background-color: #ffd93d;
+  color: black;
+}

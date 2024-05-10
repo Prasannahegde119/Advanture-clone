@@ -1,0 +1,47 @@
+/* Global Styles */
+
+* {
+  /* box-sizing: border-box; */
+  margin: 0;
+  padding: 0;
+}
+
+/* Footer Styles */
+
+.footer-content {
+  align-items: center;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  padding: 1.5rem;
+  width: 100%;
+}
+
+/* Responsive Styles */
+
+/* Tablet (768px - 1024px) */
+
+@media (max-width: 1024px) {
+  .footer-content {
+    padding: 1rem;
+  }
+}
+
+/* Mobile (480px - 767px) */
+
+@media (max-width: 767px) {
+  .footer-content {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+}
+
+/* Small Mobile (320px - 479px) */
+
+@media (max-width: 479px) {
+  .footer-content {
+    padding: 0.2rem;
+  }
+}

@@ -1,0 +1,104 @@
+.text-content {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  height: 300px;
+  width: 665px;
+  padding-top: 4rem;
+  background-color: #00000080;
+  color: aliceblue;
+  border-radius: 20px;
+  transform: translate(-50%, -50%);
+  margin-top: 30px;
+}
+
+.heading {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 2.8rem;
+  font-weight: 900;
+  gap: 0.5rem;
+  justify-content: center;
+  position: relative;
+  text-transform: uppercase;
+}
+.yellow {
+  color: yellow;
+}
+
+.search-container {
+  background-color: #ffffff; /* white background for search container */
+  border-radius: 20px; /* border radius of 20px */
+  display: flex; /* enable flex layout */
+  align-items: center; /* center items vertically */
+  padding: 10px; /* add padding for input and icon */
+  height: 1.5rem;
+  width: 550px;
+  margin-top: 20px;
+  margin-left: 45px;
+}
+
+.search-container input {
+  border: none; /* remove default input border */
+  outline: none; /* remove input outline */
+  flex: 1; /* expand input to fill available space */
+  padding: 8px; /* add padding inside input */
+  border-radius: 20px; /* border radius of 20px */
+}
+
+.search-container input::placeholder {
+  color: #888; /* placeholder text color */
+}
+
+.search-button {
+  background-color: yellow; /* yellow background for search button */
+  color: #fff; /* white text color for search button */
+  border: none; /* remove default button border */
+  cursor: pointer; /* change cursor to pointer on hover */
+  padding: 8px; /* add padding for search button */
+  border-radius: 20px; /* border radius of 20px */
+  margin-left: 10px; /* add margin to separate input and button */
+}
+
+.search-button:hover {
+  background-color: #f9d423; /* lighter yellow background on hover */
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: Auto;
+}
+
+.bottom-item {
+  display: flex;
+  flex: 1;
+  margin-left: 28px;
+  text-align: center;
+  gap: 5px;
+}
+
+.icon {
+  /* margin-bottom: 10px; */
+  margin-top: 6px;
+}
+
+.icon svg {
+  font-size: 24px;
+}
+
+.text div {
+  font-size: 19px;
+  margin-bottom: 5px;
+}
+
+.bottom-container {
+  display: flex;
+  height: 100%;
+  gap: 27px;
+  margin-left: 20px;
+}
